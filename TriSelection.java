@@ -1,42 +1,20 @@
-public class AlgoTriParSelection {
-
-     public static void tri_selection(int[] tab)
-     {
-          for (int i = 0; i < tab.length - 1; i++)  
-          {
-               int index = i;  
-               for (int j = i + 1; j < tab.length; j++)
-               {
-                    if (tab[j] < tab[index]){ 
-                         index = j;
-                    }
-               }
- 
-               int min = tab[index];
-               tab[index] = tab[i]; 
-               tab[i] = min;
-          }
-     }
-
-     static void displayTab(int[] tab){
-          for(int i=0; i < tab.length; i++)
-          {  
-               System.out.print(tab[i] + " ");  
-          } 
-          System.out.println();    
-     }
-  
-     public static void main(String a[])
-     {  
-          int[] tab = {-4, 1, 13, 4, 16, 2, 13, 14}; 
-  
-          System.out.println("**** Avant le tri par selection *****");
-          displayTab(tab);
-
-          //tri d un tableau avec l algorithme de tri par selection
-          tri_selection(tab);
- 
-          System.out.println("**** Apres le tri par selection ****");  
-          displayTab(tab); 
-     } 
+public class TriSelection {
+    public static void main(String[] args) {
+        int [] tab = {10, 8, 5, 3, 7, 20, 45, 2, 11, 16};
+        int n = tab.length;
+        for(int i = 0; i<n-1; i++) {
+            int min = i;
+            for(int j=i+1; j<=n-1; j++) {
+                if(tab[j] < tab[min]) {
+                    min = j;
+                }
+            }
+            int y = tab[i];
+            tab[i]= tab[min];
+            tab[min] = y;
+        }
+        for(int i=0; i<n; i++) {
+            System.out.println(tab[i]);
+        }
+    }
 }
