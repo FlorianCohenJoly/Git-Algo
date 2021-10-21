@@ -10,8 +10,7 @@ procédure tri_selection(tableau t)
   fin procédure
 
 
-Pour i variant de 1 à n-1 faire
-Trouver[j] le plus petit element de [i+1:n] Echanger [j] et [i]
+ 
 
 
 
