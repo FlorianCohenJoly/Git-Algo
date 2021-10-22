@@ -1,6 +1,6 @@
 Tri par sélection :
 
-exemple de tableau où n est la longueur du tableau et n = 5
+exemple de tableau où n = taille et n = ...
 pour i de 0 à n-1 avec i = 0
 min = i (i minimum)
 pour j = i+1 à n-1
