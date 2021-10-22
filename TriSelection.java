@@ -1,3 +1,16 @@
+Tri par sélection :
+
+        exemple de tableau où n est la longueur du tableau et n = 5
+        pour i de 0 à n-1 avec i = 0
+        min = i (i minimum)
+        pour j = i+1 à n-1
+        si nous avons t j < t min alors min prend la valeur j
+        (cad qu'il y a un échange de valeur dans la tableau pour avoir un ordre)
+        Fin.
+
+
+
+
 public class TriSelection {
     public static void main(String[] args) {
         int [] tab = {10, 8, 5, 3, 7, 20, 45, 2, 11, 16};
@@ -18,3 +31,4 @@ public class TriSelection {
         }
     }
 }
+
