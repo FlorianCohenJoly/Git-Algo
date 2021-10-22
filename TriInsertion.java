@@ -2,7 +2,7 @@ Tri par insertion :
 
 exemple de tableau où n = taille et n = ...
 pour i = 0 à n-1 
-on fait prendre à (tab)i la valeur min donc min=(tab)i
+on fait prendre à min la valeur tab(i) donc min=(tab)i
 on a j=i-1
 tant que j > 0 et que (tab) j > min
 on a (tab) j +1 = (tab) j 
