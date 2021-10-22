@@ -23,8 +23,9 @@ public class TEST1234 {
             }
             for(int i=0; i<n; i++) {
                 System.out.println(tab[i]);
-                System.out.println("Il y a eu " + comparaison + " comparaisons, " + affectation +" affectations et "+ echange + " echanges.");
-
+           
             }
+                 System.out.println("Il y a eu " + comparaison + " comparaisons, " + affectation +" affectations et "+ echange + " echanges.");
+
             }
         }
