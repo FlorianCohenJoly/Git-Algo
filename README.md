@@ -1,6 +1,3 @@
 # Git-Algo
 
-
-zvzdfdgdfsd
-coucou les amis 
-essai houlala
+par Adrien, Alan, Abed et Florian
