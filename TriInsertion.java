@@ -1,6 +1,6 @@
 Tri par insertion : 
 
-exemple de tableau où n est la longueur du tableau et n = 5
+exemple de tableau où n = taille et n = ...
 pour i = 0 à n-1 
 on fait prendre à (tab)i la valeur min donc min=(tab)i
 on a j=i-1
