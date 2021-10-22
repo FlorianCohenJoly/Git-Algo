@@ -1,4 +1,6 @@
- Tri à bulles normal :
+ 
+
+Tri à bulles normal :
 
 Pour i = 0 à n - 1 et i < tab
 on affiche la valeur de tab en ||
