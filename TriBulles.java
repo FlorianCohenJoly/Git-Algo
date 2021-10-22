@@ -1,3 +1,24 @@
+ Tri à bulles normal :
+
+Pour i = 0 à n - 1 et i < tab
+on affiche la valeur de tab en ||
+on déclare 3 variable i,j, et val
+Pour i = val tab -1  et i >= 1
+et Pour j = 1 , j <= i  et 
+on a (tab) j - 1 > tab j
+
+on permute les valeurs
+on a 
+   val= tab(j-1)
+   tab(j-1) = tab(j)
+   tab(j)=val
+   puis on ecrit la valeur de tab
+   on échange les valeurs du tableau  en appellant la fonction
+
+
+
+
+
 public class TriBulles {
 
     public void write (int [] tab) {
